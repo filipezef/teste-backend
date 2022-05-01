@@ -25,6 +25,9 @@ gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
+# NoSQL DB for kafka message consumer
+gem 'mongoid'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma"
 
@@ -36,6 +39,12 @@ gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
+
+# Turbolinks, application.html.erb javascript_include_tag. Refer to /app/assets/javascripts/application.js
+gem 'turbolinks'
+
+# compiled and bundled JavaScript
+gem 'webpacker'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"

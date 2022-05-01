@@ -1,6 +1,10 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
+  
+  # to allow requests to aws host
+  config.hosts << "2292dae17e5e44a5881b5c5384477d50.vfs.cloud9.sa-east-1.amazonaws.com"
+  
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded any time
