@@ -43,7 +43,7 @@ gem "stimulus-rails"
 # Turbolinks, application.html.erb javascript_include_tag. Refer to /app/assets/javascripts/application.js
 gem 'turbolinks'
 
-# compiled and bundled JavaScript
+# To compile and bundle JavaScript
 gem 'webpacker'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
